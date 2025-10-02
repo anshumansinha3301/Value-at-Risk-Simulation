@@ -1,1 +1,9 @@
-# Value-at-Risk-Simulation
+# Portfolio VaR Simulator (Python)
+
+The Portfolio VaR Simulator is an advanced Python project designed to estimate the potential risk of a financial portfolio using Value at Risk (VaR) metrics. It provides three distinct methods for calculating VaR: historical simulation, variance-covariance method, and Monte Carlo simulation. By leveraging these techniques, the project allows users to understand potential portfolio losses at a specified confidence level and explore different approaches to financial risk assessment.
+
+This project allows users to model a portfolio with a given value, expected mean return, and volatility. Historical simulation uses past returns to estimate risk, the variance-covariance method relies on statistical assumptions of normally distributed returns, and Monte Carlo simulation generates thousands of possible future returns to provide a probabilistic view of potential losses. Together, these methods give a comprehensive understanding of portfolio risk, helping users evaluate both extreme loss scenarios and typical market fluctuations.
+
+Implemented entirely in Python using only the standard library, the Portfolio VaR Simulator is accessible, lightweight, and easy to extend. Users can experiment with different confidence levels, time horizons, and portfolio parameters to explore how changes affect potential losses. The tool is ideal for students, finance professionals, and quantitative enthusiasts who want to understand and visualize financial risk in a programmatic way.
+
+Beyond educational purposes, this project serves as a foundation for more sophisticated risk management applications, including stress testing, scenario analysis, and integration with portfolio optimization frameworks. By combining statistical modeling, stochastic simulation, and practical finance concepts, the Portfolio VaR Simulator bridges theory and practice, providing an excellent Hacktoberfest project for contributors interested in quantitative finance, financial engineering, or algorithmic risk analysis.
